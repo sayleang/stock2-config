@@ -1,0 +1,14 @@
+
+SELECT * FROM T_BLUE_BIRD where verification_result>=2 and sale_rate_of_change>=10 and operating_profit_rate_of_change>=10 and ordinary_profit_rate_of_change>=7 and (one_share_profit_next_term-one_share_profit_this_term)>=20 ORDER BY VERIFICATION_RESULT DESC
+
+
+SELECT * FROM T_BLUE_BIRD where verification_result>=2 and sale_rate_of_change>=10 and operating_profit_rate_of_change>=10 and ordinary_profit_rate_of_change>=7 and (one_share_profit_next_term-one_share_profit_this_term)>=20
+
+
+SELECT * FROM T_BLUE_BIRD ORDER BY VERIFICATION_RESULT DESC
+
+
+SELECT * FROM T_BLUE_BIRD where  verification_result>=2 and sale_rate_of_change>=20 and operating_profit_rate_of_change>=15 and ordinary_profit_rate_of_change>=15 and (one_share_profit_next_term-one_share_profit_this_term)>=20 ORDER BY VERIFICATION_RESULT DESC
+
+
+SELECT * FROM T_BLUE_BIRD where  verification_result>=2 and sale_rate_of_change>=20 and operating_profit_rate_of_change>=20 and ordinary_profit_rate_of_change>=15 and (one_share_profit_next_term-one_share_profit_this_term)>=20 ORDER BY VERIFICATION_RESULT DESC

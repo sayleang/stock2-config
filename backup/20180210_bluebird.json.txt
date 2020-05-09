@@ -1,0 +1,88 @@
+{
+   "columns":[
+      {
+         "type":"Number",
+         
+         "format":"#,##0",
+         "alignment":"top-center",
+         
+         "control":{},
+         
+         "text":"No",
+         "property":"no",
+
+         "visible":"true",
+         "editable":"false",
+         "resizable":"true",
+         "sortable":"true",
+         "sortType":"asc",
+
+         
+         "minWidth":"60",
+         "maxWidth":"0",
+         "prefWidth":"0",
+         "nested":[
+         ]
+      },
+      {
+         "type":"String",
+         "text":"コード",
+         "property":"code",
+         "editable":"true",
+         "resizable":"true",
+         "visible":"true",
+         "minWidth":"60",
+         "maxWidth":"0",
+         "prefWidth":"0",
+         "nested":[
+         ]
+      },
+      {
+         "type":"String",
+         "text":"銘柄名",
+         "property":"brand",
+         "editable":"true",
+         "resizable":"true",
+         "visible":"true",
+         "minWidth":"120",
+         "maxWidth":"0",
+         "prefWidth":"0",
+         "nested":[
+         ]
+      },
+      {
+         "type":"String",
+         "control":{
+              "type":"ComboBox",
+              "data":"marketCombo"
+         },
+         "text":"市場",
+         "property":"marketplace",
+         "minWidth":"120",
+         "nested":[
+         ]
+      },
+      {
+         "type":"Number",
+         "text":"株価",
+         "property":"lastPrice",
+         "nested":[
+		         {
+		         "type":"Number",
+		         "format":"\\ #,##0",
+		         "text":"高値",
+		         "property":"high",
+		         "minWidth":"80"
+		         },
+		         {
+		         "type":"Number",
+		         "text":"安値",
+		         "property":"low",
+		         "minWidth":"80"
+		         }
+         ]
+      }
+      
+      
+   ]
+}
